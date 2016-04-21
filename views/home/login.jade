@@ -1,0 +1,23 @@
+doctype
+html
+    head
+        title="Login"
+        link(rel="styleSheet", href="/css/bootswatch.min.css")
+    body
+        div.container-fluid
+            div.row
+                div.col-md-6.col-md-offset-3(style="margin-top:50px;")
+                    div.panel.panel-primary
+                        div.panel-heading
+                            h3.panel-title Login Panel
+                        div.panel-body
+                            div.form-group
+                                label#login-errors-message.text-danger
+                            div.form-group
+                                label Phone
+                                input#phone.form-control(type="text",name="phone")
+                            div.form-group
+                                label Password
+                                input#password.form-control(type="password",name="password")
+                            div.form-group
+                                button#login-button.btn.btn-primary.btn-block Login
